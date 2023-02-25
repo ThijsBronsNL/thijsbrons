@@ -1,0 +1,22 @@
+[2023-02-25 12:20:22] development.ERROR: There are no commands defined in the "discover" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"discover\" namespace. at /Users/thijsbrons/Sites/thijsbrons/vendor/symfony/console/Application.php:632)
+[stacktrace]
+#0 /Users/thijsbrons/Sites/thijsbrons/vendor/symfony/console/Application.php(683): Symfony\\Component\\Console\\Application->findNamespace('discover')
+#1 /Users/thijsbrons/Sites/thijsbrons/vendor/symfony/console/Application.php(256): Symfony\\Component\\Console\\Application->find('discover:packag...')
+#2 /Users/thijsbrons/Sites/thijsbrons/vendor/symfony/console/Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/thijsbrons/Sites/thijsbrons/vendor/illuminate/console/Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/thijsbrons/Sites/thijsbrons/vendor/roots/acorn/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/thijsbrons/Sites/thijsbrons/vendor/roots/acorn/src/Roots/Acorn/Bootloader.php(185): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\StringInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 [internal function]: Roots\\Acorn\\Bootloader->Roots\\Acorn\\{closure}(Array, Array)
+#7 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php(102): call_user_func(Object(Closure), Array, Array)
+#8 [internal function]: WP_CLI\\Dispatcher\\CommandFactory::WP_CLI\\Dispatcher\\{closure}(Array, Array)
+#9 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php(491): call_user_func(Object(Closure), Array, Array)
+#10 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(419): WP_CLI\\Dispatcher\\Subcommand->invoke(Array, Array, Array)
+#11 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(442): WP_CLI\\Runner->run_command(Array, Array)
+#12 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1256): WP_CLI\\Runner->run_command_and_exit()
+#13 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\\Runner->start()
+#14 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/bootstrap.php(78): WP_CLI\\Bootstrap\\LaunchRunner->process(Object(WP_CLI\\Bootstrap\\BootstrapState))
+#15 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/wp-cli.php(32): WP_CLI\\bootstrap()
+#16 phar:///usr/local/bin/wp/php/boot-phar.php(11): include('phar:///usr/loc...')
+#17 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#18 {main}
+"} 
