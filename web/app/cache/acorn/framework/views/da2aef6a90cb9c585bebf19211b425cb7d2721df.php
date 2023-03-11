@@ -1,4 +1,4 @@
-<section <?php if($id): ?> id="<?php echo e($id); ?>" <?php endif; ?> class="relative <?php echo e($pt); ?> <?php echo e($pb); ?> <?php echo e($bg_color); ?>">
+<section <?php if($id): ?> id="<?php echo e($id); ?>" <?php endif; ?> class="relative <?php echo e($bg_color); ?> <?php echo e($pt); ?> <?php echo e($pb); ?>">
     <div class="container">
         <div>
             <?php if($title && in_array('title', $content_items)): ?>

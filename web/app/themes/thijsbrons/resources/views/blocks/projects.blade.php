@@ -1,4 +1,4 @@
-<section @if($id) id="{{ $id }}" @endif class="relative {{ $pt }} {{ $pb }} {{ $bg_color }}">
+<section @if($id) id="{{ $id }}" @endif class="relative {{ $bg_color }} {{ $pt }} {{ $pb }}">
     <div class="container">
         <div>
             @if ($title && in_array('title', $content_items))

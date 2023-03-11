@@ -1,4 +1,4 @@
-<section <?php if($id): ?> id="<?php echo e($id); ?>" <?php endif; ?> class="relative flex items-center justify-center h-screen <?php echo e($bg_color); ?>">
+<section <?php if($id): ?> id="<?php echo e($id); ?>" <?php endif; ?> class="relative flex items-center justify-center h-[70vh] md:h-screen <?php echo e($bg_color); ?>">
     <div class="container">
         <div class="flex flex-col justify-center items-center">
             <div class="flex flex-col justify-center items-center text-center">

@@ -1,4 +1,4 @@
-<section @if($id) id="{{ $id }}" @endif class="relative flex items-center justify-center h-screen {{ $bg_color }}">
+<section @if($id) id="{{ $id }}" @endif class="relative flex items-center justify-center h-[70vh] md:h-screen {{ $bg_color }}">
     <div class="container">
         <div class="flex flex-col justify-center items-center">
             <div class="flex flex-col justify-center items-center text-center">

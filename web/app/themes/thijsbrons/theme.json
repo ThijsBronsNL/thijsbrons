@@ -1146,6 +1146,16 @@
           "name": "Secondary",
           "slug": "secondary",
           "color": "#1c1c22"
+        },
+        {
+          "name": "Gradient Primary",
+          "slug": "gradient-primary",
+          "color": "#0575e6"
+        },
+        {
+          "name": "Gradient Secondary",
+          "slug": "gradient-secondary",
+          "color": "#00f260"
         }
       ]
     },
