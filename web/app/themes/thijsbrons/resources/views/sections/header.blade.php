@@ -1,4 +1,4 @@
-<header class="banner">
+{{-- <header class="banner">
   <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a>
@@ -7,5 +7,6 @@
     <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
       {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
     </nav>
+    <x-button type="primary" href="{{ home_url('/stel-een-vraag') }}">Contact</x-button>
   @endif
-</header>
+</header> --}}

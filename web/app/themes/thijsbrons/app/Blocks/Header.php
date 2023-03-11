@@ -27,7 +27,15 @@ class Header extends Block
     public function with()
     {
         return [
-          'type'                => get_field('type'),
+          'id'                      => get_field('id'),
+          'bg_color'                => get_field('bg_color'),
+          'content_items'           => get_field('content_items'),
+          'heading'                 => get_field('heading'),
+          'title'                   => get_field('title'),
+          'highlighted_title'       => get_field('highlighted_title'),
+          'content'                 => get_field('content'),
+          'buttons'                 => get_field('buttons'),
+          'image'                   => get_field('image'),
         ];
     }
 

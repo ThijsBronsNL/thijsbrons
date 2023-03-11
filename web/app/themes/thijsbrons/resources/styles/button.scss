@@ -1,0 +1,15 @@
+.button {
+    @apply relative inline-flex justify-center items-center font-semibold px-4 md:px-7 py-3 rounded-full uppercase transition-colors duration-150;
+}
+
+.button-primary {
+    @apply bg-gradient;
+}
+
+.button-secondary {
+    @apply bg-white text-black;
+}
+
+.button-ghost {
+    @apply border border-white;
+}

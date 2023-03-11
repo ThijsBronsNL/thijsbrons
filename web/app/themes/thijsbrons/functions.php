@@ -1,5 +1,7 @@
 <?php
 
+include('resources/posttypes/autoload.php');
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -54,7 +56,7 @@ if (! function_exists('\Roots\bootloader')) {
 |
 */
 
-collect(['setup', 'filters'])
+collect(['setup', 'filters', 'helpers'])
     ->each(function ($file) {
         if (! locate_template($file = "app/{$file}.php", true, true)) {
             wp_die(
@@ -63,3 +65,10 @@ collect(['setup', 'filters'])
             );
         }
     });
+
+// Custom stuff
+
+add_action( 'admin_menu', 'remove_default_post_type' );
+function remove_default_post_type() {
+    remove_menu_page( 'edit.php' );
+}

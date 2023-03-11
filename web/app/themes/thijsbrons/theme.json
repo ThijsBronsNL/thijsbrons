@@ -1136,6 +1136,16 @@
           "name": "Rose 900",
           "slug": "rose-900",
           "color": "#881337"
+        },
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#161513"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "#1c1c22"
         }
       ]
     },
@@ -1161,19 +1171,14 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "name": "Ui-sans-serif",
+          "name": "Bai Jamjuree",
           "slug": "sans",
-          "fontFamily": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+          "fontFamily": "Bai Jamjuree,sans-serif"
         },
         {
-          "name": "Ui-serif",
+          "name": "Inter",
           "slug": "serif",
-          "fontFamily": "ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif"
-        },
-        {
-          "name": "Ui-monospace",
-          "slug": "mono",
-          "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+          "fontFamily": "Inter,sans-serif"
         }
       ],
       "fontSizes": [
