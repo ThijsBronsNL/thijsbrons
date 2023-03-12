@@ -5,7 +5,7 @@
                 <{{ $heading }}>{!! highlightedWord($highlighted_title, $title) !!}</{{ $heading }}>
             @endif
             @if ($content && in_array('content', $content_items))
-                <div class="mt-8 md:mt-16 max-w-xl">{!! $content !!}</div>
+                <div class="mt-8 max-w-xl">{!! $content !!}</div>
             @endif
             @if ($buttons && in_array('buttons', $content_items))
                 <div class="flex flex-wrap gap-6 mt-8">

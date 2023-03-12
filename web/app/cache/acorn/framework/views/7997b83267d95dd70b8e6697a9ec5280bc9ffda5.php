@@ -4,12 +4,12 @@
 
 <footer class="relative">
   <div class="container border-t border-white/10 text-[#F0F2F5]">
-    <div class="flex items-center justify-between py-8">
+    <div class="flex flex-col-reverse md:flex-row gap-2 items-center justify-between py-8">
       <span>&copy; <?= date('Y') ?> <?php if($footer['text']): ?> <?php echo e($footer['text']); ?> <?php endif; ?></span>
       <?php if($footer['socials']): ?>
         <div class="flex gap-2">
           <?php $__currentLoopData = $footer['socials']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $social): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-            <a class="p-4 border-gradient" href="<?php echo e($social['url']); ?>">
+            <a class="p-4 border-gradient" href="<?php echo e($social['url']); ?>" target="blank">
               <?php echo $social['svg']; ?>
 
             </a>

@@ -5,7 +5,7 @@
                 <<?php echo e($heading); ?>><?php echo highlightedWord($highlighted_title, $title); ?></<?php echo e($heading); ?>>
             <?php endif; ?>
             <?php if($content && in_array('content', $content_items)): ?>
-                <div class="mt-8 md:mt-16 max-w-xl"><?php echo $content; ?></div>
+                <div class="mt-8 max-w-xl"><?php echo $content; ?></div>
             <?php endif; ?>
             <?php if($buttons && in_array('buttons', $content_items)): ?>
                 <div class="flex flex-wrap gap-6 mt-8">
