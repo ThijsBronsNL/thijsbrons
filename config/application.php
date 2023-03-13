@@ -135,3 +135,5 @@ Config::apply();
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+define( 'FS_METHOD', 'direct' );
